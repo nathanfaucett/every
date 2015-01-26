@@ -3,7 +3,7 @@ var assert = require("assert"),
 
 
 describe("every(object, fn, thisArg)", function() {
-    it("should loop over array or object and return true if every function called on item returns truthy else false", function() {
+    it("should loop over array or object until a function returns a falsey value", function() {
         var array = [0, 1, 2],
             object = {
                 0: 0,
