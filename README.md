@@ -1,4 +1,4 @@
-object-every
+every
 =======
 
-object every for the browser and node.js
+every for the browser and node.js

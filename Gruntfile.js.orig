@@ -1,0 +1,36 @@
+module.exports = function(grunt) {
+
+    grunt.initConfig({
+        jsbeautifier: {
+            files: [
+                "Gruntfile.js",
+                "src/**/*.js",
+                "test/**/*.js"
+            ]
+        },
+        jshint: {
+            options: {
+                es3: true,
+                unused: true,
+<<<<<<< HEAD
+                curly: true,
+=======
+                curly: false,
+>>>>>>> ecf0e00e9a8844b40c1052c1a8a69fdbe24a9ce0
+                eqeqeq: true,
+                expr: true,
+                eqnull: true,
+                proto: true
+            },
+            files: [
+                "Gruntfile.js",
+                "src/**/*.js",
+                "test/**/*.js"
+            ]
+        }
+    });
+
+    grunt.loadNpmTasks("grunt-jsbeautifier");
+    grunt.loadNpmTasks("grunt-contrib-jshint");
+    grunt.registerTask("default", ["jsbeautifier", "jshint"]);
+};
