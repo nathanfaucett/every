@@ -1,10 +1,10 @@
 {
-  "name": "object-every",
+  "name": "every",
   "version": "0.0.1",
-  "description": "object every for the browser and node.js",
+  "description": "every for the browser and node.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/nathanfaucett/object-every.git"
+    "url": "https://github.com/nathanfaucett/every.git"
   },
   "main": "src/index.js",
   "scripts": {
@@ -14,8 +14,8 @@
     "test-browser-local": "zuul --local 8080 --ui tape -- ./test"
   },
   "keywords": [
-    "object-every",
-    "object-every.js"
+    "every",
+    "every.js"
   ],
   "author": "Nathan Faucett",
   "license": "MIT",
